@@ -1,5 +1,40 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-mreiferson-go-httpclient (0.0~git20160630.0.31f0106-2.1) unstable; urgency=medium
 
-  * Initial release
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Holger Levsen <holger@debian.org>  Fri, 20 May 2022 23:09:15 +0200
+
+golang-github-mreiferson-go-httpclient (0.0~git20160630.0.31f0106-2) unstable; urgency=medium
+
+  * Build-Depends on golang-any instead of golang-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 29 Nov 2016 20:10:30 +0100
+
+golang-github-mreiferson-go-httpclient (0.0~git20160630.0.31f0106-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.0~git20160630.0.31f0106
+  * Reintroduce package to unstable. Closes: #843807
+  * Rename source and binary package from golang-mreiferson-httpclient to
+    golang-github-mreiferson-go-httpclient, following the policy outlined at
+    http://pkg-go.alioth.debian.org/packaging.html
+  * Add oldlibs package and replacement mechanism for transition
+  * Update packaging to current pkg-go standards
+  * Use debhelper v10
+  * Update to Standards-Version 3.9.8, no changes needed
+  * Update d/copyright
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 09 Nov 2016 20:56:34 +0100
+
+golang-mreiferson-httpclient (0.0~git20140425-2) unstable; urgency=medium
+
+  * Change maintainer to pkg-go, move myself to uploaders.
+  * Bump standards version to 3.9.6 (no changes).
+
+ -- Jelmer Vernooij <jelmer@debian.org>  Sun, 16 Nov 2014 00:13:41 +0000
+
+golang-mreiferson-httpclient (0.0~git20140425-1) unstable; urgency=medium
+
+  * Initial release. Closes: #755070
+
+ -- Jelmer Vernooij <jelmer@debian.org>  Sat, 22 Mar 2014 15:45:59 +0000
